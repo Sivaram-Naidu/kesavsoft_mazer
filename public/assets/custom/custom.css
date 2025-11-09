@@ -1,0 +1,76 @@
+/*
+* FILENAME: assets/custom/custom.css
+* This file contains the KeshavSoft theme overrides
+*/
+
+/* Change sidebar and logo to indigo */
+#sidebar {
+  background-color: #4f46e5;
+}
+
+/* FIXED: Corrected logo selector to target h3 */
+#sidebar .sidebar-header .logo h3 {
+  color: #ffffff;
+}
+
+#sidebar .sidebar-menu .sidebar-item.active > .sidebar-link {
+  background-color: #3730a3;
+}
+
+#sidebar .sidebar-menu .sidebar-item .sidebar-link {
+  color: #e0e7ff;
+}
+
+#sidebar .sidebar-menu .sidebar-item .sidebar-link:hover {
+  background-color: #4338ca;
+}
+
+/* Change theme colors to indigo */
+.btn-primary,
+.badge-primary {
+  background-color: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+}
+
+.text-primary {
+  color: #4f46e5 !important;
+}
+
+/* Custom card styles for the dashboard */
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  /* Added padding to match the "Loading" state */
+  padding: 0 0.75rem;
+}
+
+.team-member:last-child {
+  margin-bottom: 0;
+}
+
+.team-member img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.team-member-info h6 {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #333;
+}
+
+.team-member-info span {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Dark mode compatibility for team member text */
+.theme-dark .team-member-info h6 {
+  color: #fff;
+}
+.theme-dark .team-member-info span {
+  color: #adb5bd;
+}

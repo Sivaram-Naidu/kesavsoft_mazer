@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "KeshavSoft Website (Task 2)",
+      "description": "Rebuild the company website using Vite and Nunjucks.",
+      "status": "Completed",
+      "dueDate": "Nov 8, 2025"
+    },
+    {
+      "id": 2,
+      "name": "Mazer Dashboard (Task 3)",
+      "description": "Customize and integrate data into the Mazer admin template.",
+      "status": "In Progress",
+      "dueDate": "Nov 12, 2025"
+    }
+  ],
+  "team": [
+    {
+      "id": 101,
+      "name": "Sivaram Naidu",
+      "role": "Lead Developer",
+      "avatar": "assets/custom/sivaram.png"
+    },
+    {
+      "id": 102,
+      "name": "Jane Doe",
+      "role": "Project Manager",
+      "avatar": "assets/custom/jane.png"
+    },
+    {
+      "id": 103,
+      "name": "John Smith",
+      "role": "UI/UX Designer",
+      "avatar": "assets/custom/john.png"
+    },
+    {
+      "id": 104,
+      "name": "Emily White",
+      "role": "QA Tester",
+      "avatar": "assets/custom/emily.png"
+    }
+  ]
+}
